@@ -28,7 +28,9 @@ Validate construction rules for upper floor layouts in Javaland by comparing two
 ---
 
 ## 📂 Project Structure  
+
 ``src/``
+
   ``In.java`` Helper class for input  
   ``Out.java`` Helper class for output  
   ``ReadArray.java`` Task 1: Expanding arrays  
@@ -37,9 +39,11 @@ Validate construction rules for upper floor layouts in Javaland by comparing two
   ``HouseChecker.java`` Task 4: House construction validation  
 
 ``tests/``
+
   ``Testprotokolle.txt`` Test cases and results for all tasks  
 
 ``data/``
+
   ``numbers.txt`` Input file for Task 3  
   ``ground.txt`` Ground floor layout for Task 4  
   ``first.txt`` First floor layout for Task 4 
