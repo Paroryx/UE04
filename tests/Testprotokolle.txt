@@ -1,0 +1,67 @@
+Testprotokoll A1:
+1.
+C:\Users\schoo\Desktop\Uni\Softwareentwicklung-1\Uebungen\UE04\testing>java ReadArr
+Please enter integer numbers, followed by an 'x':
+7 0 -3 4 13 x
+Array length: 8
+Read numbers: 5
+Array content (using Arrays.toString(): [7, 0, -3, 4, 13, 0, 0, 0]
+Array content (using loop): [7, 0, -3, 4, 13]
+
+2.
+C:\Users\schoo\Desktop\Uni\Softwareentwicklung-1\Uebungen\UE04\testing>java ReadArr
+Please enter integer numbers, followed by an 'x':
+0 0 0 0 0
+x
+Array length: 8
+Read numbers: 5
+Array content (using Arrays.toString(): [0, 0, 0, 0, 0, 0, 0, 0]
+Array content (using loop): [0, 0, 0, 0, 0]
+
+3.
+C:\Users\schoo\Desktop\Uni\Softwareentwicklung-1\Uebungen\UE04\testing>java ReadArr
+Please enter integer numbers, followed by an 'x':
+123 1234 -23435 333 33 98765 3 4 5 6 7 x
+Array length: 16
+Read numbers: 11
+Array content (using Arrays.toString(): [123, 1234, -23435, 333, 33, 98765, 3, 4, 5, 6, 7, 0, 0, 0, 0, 0]
+Array content (using loop): [123, 1234, -23435, 333, 33, 98765, 3, 4, 5, 6, 7]
+
+Testprotokoll A2:
+1.
+C:\Users\schoo\Desktop\Uni\Softwareentwicklung-1\Uebungen\UE04\testing>java JavalandPopulation.java
+Please enter integer numbers, followed by an 'x':
+4300 4400 4700 4500 4500 5000 5000 x
+Population difference from the first to the second year: 100
+Population difference from second-to-last to last year: 0 at index 5
+Maximum population difference in a year: 500 at index 4
+
+2.
+Please enter integer numbers, followed by an 'x':
+2000 1800 1100 x
+Population difference from the first to the second year: -200
+Population difference from second-to-last to last year: -700 at index 1
+Maximum population difference in a year: -200 at index 0
+
+3.
+C:\Users\schoo\Desktop\Uni\Softwareentwicklung-1\Uebungen\UE04\testing>java JavalandPopulation.java
+Please enter integer numbers, followed by an 'x':
+12400 12700 12450 12600 1200 1234 x
+Population difference from the first to the second year: 300
+Population difference from second-to-last to last year: 34 at index 4
+Maximum population difference in a year: 300 at index 0
+
+Testprotokoll A3:
+
+C:\Users\schoo\Desktop\Uni\Softwareentwicklung-1\Uebungen\UE04\testing>java MinSquare.java
+Minimum sum 6 found at [3,2]:
+0 1
+3 2
+
+Testprotokoll A4:
+
+C:\Users\schoo\Desktop\Uni\Softwareentwicklung-1\Uebungen\UE04\testing>java HouseChecker.java
+Error at [4, 1]: First floor DOOR is not on ground floor DOOR or WALL
+Error at [5, 4]: First floor WALL is not on or neighboring ground floor DOOR or WALL
+Error at [6, 4]: First floor WALL is not on or neighboring ground floor DOOR or WALL
+Error at [7, 4]: First floor DOOR is not on ground floor DOOR or WALL
